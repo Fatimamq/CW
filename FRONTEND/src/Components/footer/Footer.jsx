@@ -2,10 +2,16 @@ import React from 'react'
 import { useLocation } from 'react-router-dom';
 
 const Footer = () => {
-    let location= useLocation();
+   /* let location= useLocation();
     if (location.pathname="/login"){
         return null;
-    }
+     } */
+     const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+      });
+    };
 
     return(
         <>
@@ -14,12 +20,13 @@ const Footer = () => {
         this is the footer
     </div>  */}
 
-    <div className="bg-[#007f18] h-[300px] text-white justify-around flex-col text-center pl-[3rem] pr-[3rem] pb-[3rem] pt-[1rem] w-full rounded-3xl ">
+    <div className=" bg-gradient-to-r from-[#c7d63f] to-[#1ee00c] h-[300px]  text-white justify-around flex-col text-center pl-[3rem] pr-[3rem] pb-[3rem] pt-[1rem] w-full font-[Raleway]">
             <div className='pb-2 relative top-0 flex items-center'>
                     <img
                     className="logo h-[3rem] w-[3rem] "
-                    src="cwlogo.jpg"/>
-                </div> 
+                    src="cwlogo1.png"/> 
+                </div>
+               
       <div className="container mx-auto border-t border-white   px-8 py-8">
         <div className="flex flex-col md:flex-row justify-center align-middle">
           <div className="md:w-[15%]"> 
@@ -66,6 +73,7 @@ const Footer = () => {
         
       </div>
     </div>
+  
     </footer>
     </>
     );

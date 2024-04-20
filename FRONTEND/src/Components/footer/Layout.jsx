@@ -5,12 +5,12 @@ import Footer from "./Footer";
 const Layout = ({ children }) => {
   return (
     <>
-      <div>{children}</div>
-      {/* Render the footer on all pages except the login page */}
-      {window.location.pathname !== "/login" && <Footer />}
+      <div>{children}</div> 
+      {/* Render the footer on all pages except the login page  */}
+       {window.location.pathname === "/login" && <Footer />}
     </>
   );
 };
 
-export default Layout;
+export default Layout; 
 

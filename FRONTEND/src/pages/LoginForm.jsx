@@ -19,9 +19,9 @@ export default function LoginForm({ onLogin, onSignUp }) {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gray-200 absolute flex flex-col justify-center ">
+    <div className="min-h-screen absolute w-full bg-gray-200  flex flex-col justify-center pt-16 font-[Raleway]">
       <div className="mx-auto w-full max-w-md">
-        <h2 className="text-center text-3xl font-serif font-bold text-[#007f18]">Sign in to your account</h2>
+        <h2 className="text-center text-3xl  font-bold text-[#007f18]">Sign in to your account</h2>
       </div>
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -38,7 +38,7 @@ export default function LoginForm({ onLogin, onSignUp }) {
                   type="text"
                   autoComplete="username"
                   required
-                  value={" "+username}
+                  value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   className="shadow-md focus:ring-[#007f18] focus:border-[#007f18] block w-full sm:text-sm  rounded-md h-[30px] "
                 />
