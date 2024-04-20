@@ -1,10 +1,20 @@
 import React, { useState } from 'react';
 
+<<<<<<< HEAD
 const Service = () => {
     const [showServiceForm, setShowServiceForm] = useState(false);
     const [selectedService, setSelectedService] = useState('');
     const [userId, setUserId] = useState('');
     const [submitEnabled, setSubmitEnabled] = useState(false);
+=======
+const Services = () => {
+  return (
+    <div className='pt-16'>
+      Asalamalaikum
+    </div>
+  )
+}
+>>>>>>> 8bc70af16c35e3550d0d0715453c03612e736bdc
 
     const activateService = () => {
         setShowServiceForm(true);

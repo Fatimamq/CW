@@ -2,7 +2,7 @@ import React from 'react'
 
 function Support() {
   return (
-    <div>
+    <div className='pt-16'>
       support
     </div>
   )
