@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ServicePage = () => {
+const Service = () => {
     const [showServiceForm, setShowServiceForm] = useState(false);
     const [selectedService, setSelectedService] = useState('');
     const [userId, setUserId] = useState('');
@@ -72,4 +72,4 @@ const ServicePage = () => {
     );
 };
 
-export default ServicePage;
+export default Service;
