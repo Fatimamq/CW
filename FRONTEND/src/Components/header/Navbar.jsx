@@ -72,7 +72,7 @@ return(
 
             
                     <li className='float-left no-underline text-center px-6 py-3  '>
-                    <NavLink  className={(e)=>{return e.isActive? "text-[#007f18]": ""}} to="/about">About</NavLink>
+                    <NavLink  className={(e)=>{return e.isActive? "text-[#007f18]": ""}} to="/about">About Us</NavLink>
                     </li>
 
             

@@ -8,6 +8,7 @@ import { GrTechnology } from "react-icons/gr";
 import Aims from '../Components/Aim';
 import Hero from '../Components/Hero';
 
+
 export default function Home() {
     const [isVisible, setIsVisible] = useState(false);
     const [isSecondDivVisible, setIsSecondDivVisible] = useState(false);
@@ -119,9 +120,9 @@ export default function Home() {
             <div
               className={`transition-opacity duration-1000 ${
                 isVisible ? 'opacity-100' : 'opacity-0'}`}>
-    <div className='text-center items-center justify-center m-10 text-[26px] font-[Raleway] text-gray-700 '>
+    <div className='text-center items-center justify-center m-10 text-[26px] font-[Raleway] '>
     <p>As the global population increases, so does the amount of waste generated. Added to this are various other factors like urbanization, economic growth and rising living standards, and industrialization. According to the World Bank, global waste generation is expected to rise to 3.4 billion tons by 2050, up from 2.01 billion tons in 2016. </p>
-    <br /><br />
+    <br />
     <p><span className='text-yellow-500'>Clear </span><span className='text-[#007f18]'>Waste</span>'s waste management solution is an initiative to manage the growing volumes of waste generated. By incorporating features like real-time tracking and Event specific waste pickups, we aim to promote a greener, more efficient urban landscape. </p>
     <br />
     <p>Smart decisions lead to smart cities, and a smart future. Together we can create a world where waste is managed intelligently, fostering sustainability and a healthier environment for all. </p>
@@ -133,9 +134,9 @@ export default function Home() {
                 isSecondDivVisible ? 'opacity-100' : 'opacity-0'
               } m-10`}> 
             
-    <div className='h-[80%] width-full  font-[Raleway] mb-10'>
+    <div className='h-[80%] width-full  font-[Raleway] mb-10' >
       <div className='pb-5'>
-      <div className='flex justify-center'>
+      <div className='flex justify-center'id='our-vision'>
       <h1 className='text-center text-[35px]'>Here's what we aim to accomplish</h1>
       <div className='text-center text-[#007f18] text-[40px]'><TbTargetArrow /></div>
       </div>

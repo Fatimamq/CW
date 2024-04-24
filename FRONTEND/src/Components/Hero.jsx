@@ -23,7 +23,7 @@ const Hero = () => {
     return (
       
         <div className='flex h-[90%] w-screen'>
-          <div className='hero bg-gradient-to-r h-screen w-screen from-[#daf34f] to-[#1ee00c] text-white pt-20 pl-10'>
+          <div className='hero bg-gradient-to-r h-screen w-screen from-[#d5df48] to-[#1ee00c] text-white pt-20 pl-10'>
             <div className="m-10 font-[Raleway]">
               <div>
                 {/* Apply animation class based on state */}

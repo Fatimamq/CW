@@ -50,21 +50,23 @@ const Footer = () => {
           </div>
 
           <div className="md:w-[15%]">
-            <h2 className="text-2xl font-bold mb-1 underline">About Us</h2>
+            <h2 className="text-2xl font-bold mb-1 underline">Quick Info</h2>
             <ul className='text-lg'>
-                <a href="/about">
-              <li className="mb-1">Our Mission</li>
-              <li className="mb-1">Our Team</li>
+                <a href="/#second-div">
+              <li className="mb-1">Our Aims</li></a>
+              <a href="/#our-vision">
+              <li className="mb-1">Our Vision</li>
                 </a>
             </ul>
           </div>
 
           <div className="md:w-[15%]">
-            <h2 className="text-2xl font-bold mb-1 underline">Quick Info</h2>
+            <h2 className="text-2xl font-bold mb-1 underline">About Us</h2>
             <ul className='text-lg'>
-                <a href="/about">
-              <li className="mb-1">Service areas</li>
-              <li className="mb-1">Waste basics</li>
+                <a href="/about#service-area">
+              <li className="mb-1">Service areas</li></a>
+              <a href="/about#core-values">
+              <li className="mb-1">Core Values</li>
                 </a>
             </ul>
             </div>
